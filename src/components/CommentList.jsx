@@ -5,7 +5,7 @@ const CommentList = (props) => {
     <>
       {props.recensioni.map((recens) => {
         return (
-          <ListGroup key={recens._id}>
+          <ListGroup key={recens._id} data-testid="comments">
             <ListGroup.Item>
               {recens.rate}-{recens.comment}
             </ListGroup.Item>

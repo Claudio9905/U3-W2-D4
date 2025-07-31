@@ -51,6 +51,7 @@ const BookList = (props) => {
                     changeId={getIdBook}
                     bookSelected={asin === b.asin}
                     newSelected={selectedBook}
+                    data-testid="card"
                   />
                 </Col>
               ))}
