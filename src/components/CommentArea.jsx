@@ -58,6 +58,7 @@ const CommentArea = (props) => {
 
   return (
     <>
+      <h4>Recensioni del libro</h4>
       <CommentList recensioni={arrayCommentsBook} />
       <AddComment id={props.idBook} toggleTrigger={toggleTrigger} />
     </>
